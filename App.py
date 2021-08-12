@@ -2,8 +2,8 @@
 import streamlit as st
 import awesome_streamlit as ast
 import src.pages.home
-import src.pages.data 
-import src.pages.plots
+import src.pages.EDA 
+import src.pages.aboutUs
 import src.pages.pred
 
 ast.core.services.other.set_logging_format()
@@ -11,9 +11,9 @@ ast.core.services.other.set_logging_format()
 # create the pages
 PAGES = {
     "Home": src.pages.home,
-    "Data":src.pages.data,
-    "Data visualisations": src.pages.plots,
+    "Data visualisations":src.pages.EDA,
     "Predictions": src.pages.pred,
+    "About Us": src.pages.aboutUs,
 }
 
 

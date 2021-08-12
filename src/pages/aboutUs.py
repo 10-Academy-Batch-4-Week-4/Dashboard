@@ -1,6 +1,6 @@
 import streamlit as st
 
-def app():
+def write():
     st.title(" Swahili Speech To Text ")
     st.write("""
     # About Group 5
