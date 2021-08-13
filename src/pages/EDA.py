@@ -27,5 +27,5 @@ def write():
     """)
 
     st.subheader("Distribution of Character per sec")
-    st.image('images\dist_char_per_sec.png')
+    st.image('images/dist_char_per_sec.png')
 
