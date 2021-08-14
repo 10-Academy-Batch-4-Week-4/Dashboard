@@ -4,7 +4,7 @@ import awesome_streamlit as ast
 import src.pages.home
 import src.pages.EDA 
 import src.pages.aboutUs
-#import src.pages.transcribe
+import src.pages.transcribe
 import src.pages.pred
 
 ast.core.services.other.set_logging_format()
@@ -13,7 +13,7 @@ ast.core.services.other.set_logging_format()
 PAGES = {
     "Home": src.pages.home,
     "Data visualisations":src.pages.EDA,
-    #"Predictions": src.pages.transcribe,
+    "Predictions": src.pages.transcribe,
     "Prediction demo":src.pages.pred,
     "About Us": src.pages.aboutUs,
 }
